@@ -2,7 +2,9 @@
 Introduction to Classes
 Methods
 
-Methods are functions that are defined as part of a class. The first argument in a method is always the object that is calling the method. Convention recommends that we name this first argument self. Methods always have at least this one argument.
+Methods are functions that are defined as part of a class. The first argument in a method is always the object that is
+calling the method. Convention recommends that we name this first argument self. Methods always have at least this one
+argument.
 
 We define methods similarly to functions, except that they are indented to be part of the class.
 """
@@ -18,15 +20,20 @@ pipi_pitbull.time_explanation()
 # Prints "Dogs experience 7 years for every 1 human year."
 
 """
-Above we created a Dog class with a time_explanation method that takes one argument, self, which refers to the object calling the function. We created a Dog named pipi_pitbull and called the .time_explanation() method on our new object for Pipi.
+Above we created a Dog class with a time_explanation method that takes one argument, self, which refers to the object
+calling the function. We created a Dog named pipi_pitbull and called the .time_explanation() method on our new object
+for Pipi.
 
-Notice we didn’t pass any arguments when we called .time_explanation(), but were able to refer to self in the function body. When you call a method it automatically passes the object calling the method as the first argument.
+Notice we didn’t pass any arguments when we called .time_explanation(), but were able to refer to self in  function
+body. When you call a method it automatically passes the object calling the method as the first argument.
 Instructions
 1.
 
-At Jan van High, the students are constantly calling the school rules into question. Create a Rules class so that we can explain the rules.
+At Jan van High, the students are constantly calling the school rules into question. Create a Rules class so that we can
+explain the rules.
 
-In order for your code to run, you have to have something in your class — you can’t have a defined class with no body like the following:
+In order for your code to run, you have to have something in your class — you can’t have a defined class with no body
+like the following:
 
 class exampleClass:
 
